@@ -1,8 +1,10 @@
-﻿<Properties StartupItem="CuttingBoard.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AddPiece.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CollectData.cs">
     <Files>
-      <File FileName="Assets\Scripts\AddPiece.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UIControlls.cs" Line="22" Column="47" />
+      <File FileName="Assets\Scripts\CollectData.cs" Line="104" Column="2" />
+      <File FileName="Assets\Scripts\MouseControls.cs" Line="11" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -16,27 +16,23 @@ public class MouseControls : MonoBehaviour {
 		if(camPosition>=-120 && camPosition<=-20){
 			if (Input.GetAxis("Mouse ScrollWheel") < 0) // back
 		    {
-		    	Debug.Log("do tyłu");
 		    	camPosition-=5;
 		        Camera.main.transform.position = new Vector3(0,0,camPosition);
 		    }
 		    if (Input.GetAxis("Mouse ScrollWheel") > 0) // forward
 		    {
-		    	Debug.Log("do przodu");
 		    	camPosition+=5;
 		        Camera.main.transform.position = new Vector3(0,0,camPosition);
 		    }
 		} else if(camPosition<=-120){
 			if (Input.GetAxis("Mouse ScrollWheel") > 0) // forward
 		    {
-		    	Debug.Log("do przodu");
 		    	camPosition+=5;
 		        Camera.main.transform.position = new Vector3(0,0,camPosition);
 		    }
 		} else if (camPosition>=-20) {
 			if (Input.GetAxis("Mouse ScrollWheel") < 0) // back
 		    {
-		    	Debug.Log("do tyłu");
 		    	camPosition-=5;
 		        Camera.main.transform.position = new Vector3(0,0,camPosition);
 		    }	

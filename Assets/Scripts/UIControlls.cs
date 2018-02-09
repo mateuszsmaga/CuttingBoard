@@ -20,6 +20,7 @@ public class UIControlls : MonoBehaviour {
 			GameObject newMenuLine = Instantiate(menuLinePrefab, new Vector3(0,0,0), Quaternion.identity);
 			//newMenuLine.transform.parent = transform;
 			newMenuLine.transform.SetParent(transform);
+			newMenuLine.name = "CutSettingsLine" + (linesCount - 1);
 			newMenuLine.transform.localPosition = new Vector3(0, newLinePosY, 0);
 			addButtonObject.transform.localPosition = new Vector3(0, addButtonPosY, 0);
 		}
